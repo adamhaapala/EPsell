@@ -1,0 +1,10 @@
+name: EPsell
+version: 1.0
+main: me.Xiretza.EPsell.EPsell
+author: Xiretza
+website: http://www.youtube.com/user/Xir3tza
+depend: [Vault]
+commands:
+    eps:
+        usage: /<command> <Anzahl|all>
+        description: XP verkaufen
