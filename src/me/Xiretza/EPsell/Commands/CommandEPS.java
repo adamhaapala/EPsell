@@ -66,6 +66,11 @@ public class CommandEPS {
 					return true;
 				}
 
+				if (lvl < 0) {
+					p.sendMessage(pl.nameP + "You can't provide a negative number");
+					return true;
+				}
+
 				if (p.getLevel() < lvl && p.getGameMode().getValue() != 1) {
 
 					p.sendMessage(pl.nameP + "Not enough XP!");
